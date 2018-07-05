@@ -1,7 +1,7 @@
 def archivo(string1, string2)
   file = File.open('ciudades.html', 'w')
-  file.puts "<p> #{string1} </p>"
-  file.puts "<p> #{string2} </p>"
+  file.puts "<p> #{string1} </p>" #parrafo New York
+  file.puts "<p> #{string2} </p>" #parrafo USA
   file.close
 end
 
